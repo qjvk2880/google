@@ -1,0 +1,110 @@
+.function {
+  text-align: right;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  color: #212121;
+  margin: 3px;
+}
+
+#menuButton {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+#menuButton:hover {
+  background-color: #f0f0f0;
+}
+
+#menuImage {
+  width: 15px;
+  height: 15px;
+}
+
+#bottom {
+  text-align: center;
+}
+
+#logo {
+  text-align: center;
+  margin-top: 133px;
+}
+#logo img {
+  width: 300px;
+}
+
+.searchBox {
+  border-radius: 30px;
+
+  position: relative;
+  margin-top: 50px;
+}
+
+.searchBox input {
+  border-radius: 30px;
+  width: 561px;
+  height: 44px;
+  padding-left: 40px;
+  border: none;
+  box-shadow: 0.7px 0.7px 3px gray;
+}
+.searchBox input:focus {
+  outline: none;
+}
+.search-icon {
+  font-size: 14px;
+  color: #5f6367;
+  position: relative;
+  left: 40px;
+  top: 1px;
+}
+.mic-icon {
+  font-size: 14px;
+  color: #5f6367;
+  position: relative;
+  right: 40px;
+  top: 1px;
+  background-color: transparent;
+  border: none;
+}
+.mic-icon:hover {
+  cursor: pointer;
+}
+
+.shorCut img {
+  width: 40px;
+  height: 40px;
+}
+
+.shorCut {
+  margin-top: 20px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.shorCut button{
+  width: 120px;
+  height: 120px;
+  padding: 0px;
+  background-color: transparent;
+  border: none;
+}
+
+.shorCut button:hover {
+  background-color: #f0f0f0;
+}
+
+.shortCutName {
+  margin-top: 10px;
+}
